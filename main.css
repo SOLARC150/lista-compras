@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+header p {
+    font-size: 30px;
+}
+
+header {
+    padding: 16px 0;
+}
+
+form {
+    padding: 16px 0;
+}
+
+form input {
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 0 16px;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0 25%;
+    position: absolute;
+}
+
+ul li {
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#lista li{
+    display: inline-block;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+li p2 {
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+}
